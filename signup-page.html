@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            font-family:sans-serif;
+        }
+        /* question 2 */
+        body{
+            background-color: black;
+        }
+        .signup-form{
+            height:100vh;
+            width:100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            background-color: #fff;
+            width:50%;
+            border-radius:5px;
+        }
+        form h1{
+            padding: 40px 0px 40px 0px;
+            text-align: center;
+        }
+        form input,button,select{
+            width:80%;
+            height:30px;
+        }
+        form label,input,select,button{
+            margin-left:10%;
+        }
+        button{
+            margin-bottom:40px;
+            height:30px;
+            color: rgb(255, 255, 255);
+            background-color: black;
+            border-style:none;
+            border-radius:2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- signup form start -->
+<div class="signup-form">
+    <form action="" method="post">
+        <h1>signup</h1>
+        <label for="name">Name: <br>
+            <input type="text" name="" id="name">
+         </label><br><br>
+
+        <label for="dropdown">Batch: <br>
+            <select name="" id="dropdown">
+                <option value="" selected>Sigma 2.0</option>
+                <option value=""> Sigma 1</option>
+                <option value="">Sigma 3.0 (coming)</option>
+            </select>
+        </label><br><br>
+
+        <label for="Age">Age: <br>
+            <input type="text" name="" id="Age">
+        </label><br><br>
+
+        <label for="Email">Email: <br>
+            <input type="email" name="" id="Email">
+        </label><br><br>
+
+        <label for="password">Password: <br>
+            <input type="password" name="" id="password">
+        </label><br><br>
+
+        <button>Signup</button>
+    </form>
+</div>
+</body>
+</html>
