@@ -25,5 +25,5 @@ Tech used in to create athe project
 Install the project file in your pc.
 
 ```sh
-git install https://github.com/abhaysam2888/assignment-pw.git
+git install git@github.com:abhaysam2888/Assignment-pw-git-github.git
 ```
